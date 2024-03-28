@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portifolhio</title>
+
+<style>
+ body{
+    background: url(java.jpg);
+    background-size: cover;
+ }
+img{
+        width: 100px;
+        height: auto;
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        animation: moveUpDown 2s ease-in-out infinite;
+    }
+   
+#projetos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.projeto {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+}
+
+
+.projeto h2 {
+    color: #333;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.projeto p {
+    color: #666;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.projeto a {
+    background-color: #333;
+    color: #fff;
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.projeto a:hover {
+    background-color: #555;
+}
+p{
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    font-size: 32px;
+    font-family: font1;  
+}
+@keyframes moveUpDown {
+
+0%,
+100% {
+    transform: translateY(0);
+
+}
+
+50% {
+    transform: translateY(-50px);
+
+} 
+ }
+
+
+</style>
+</head>
+<body>
+    <p> Meus projetos usando javascript</p>
+     <a href="seis.html">
+      <img src="certa.png" alt="Botão" />
+    </a>
+
+    <div class="projeto">
+            
+        <h2>Calculadora </h2>
+        <p> A calculadora foi um dos projetos mais estrassantes que eu ja tive mais no final eu gostei do resultado ....... </p>
+        <a href= " https://casciane.github.io/java/">Ver Mais</a>
+    </div>
+</body>
+</html>

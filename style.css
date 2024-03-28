@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: font1;
+    src: url(Verve.ttf);
+}
+@keyframes moveUpDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+
+    }
+
+    50% {
+        transform: translateY(-50px);
+
+    }
+} 
+
+body {
+    background: url(começo.png);
+    background-size: cover;
+    
+
+
+}
+
+
+
+
+
+    
+    img{
+        width: 100px;
+        height: auto;
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        animation: moveUpDown 2s ease-in-out infinite;
+    }
+    
+     
+     
+
+h2{
+    line-height: 1em;
+     position: absolute;
+    top: 25%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    font-family: font1;
+    font-size: 45px;
+    
+    
+
+
+
+}
+
+p {
+    position: absolute;
+
+    top: 34%;
+    left: 69%;
+    transform: translate(-50%, -50%);
+    font-family: font1;
+    font-size: 45px;
+    
+}
